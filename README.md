@@ -308,7 +308,7 @@ def plotImage(G_losses, D_losses):
     plt.show()
 ```
 
-## 參數問題
+## 調整參數
 經過多次測試發現如果將epoch增加卻沒有跟著調整batch size，跑太多回生成出來的每張假照片會長得一模一樣，如下所示。
 
 - batch_size=16, lr=0.0001, epoch=200
