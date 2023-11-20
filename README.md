@@ -321,7 +321,7 @@ def plotImage(G_losses, D_losses):
 
 - batch_size=16, lr=0.0001, epoch=500
 
-![fig](fig/bs16_lr0.0001_ep500.png "fig4") ![fig](fig/out_bs16_lr0.0001_500ep_resize.png "fig5")
+![fig](fig/bs16_lr0.0001_ep500.png "fig4") ![fig](fig/out_bs16_lr0.0001_500ep_resize_.png "fig5")
 
 
 ![fig](fig/ "fig") ![fig](fig/ "fig")
