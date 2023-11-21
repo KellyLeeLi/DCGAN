@@ -331,28 +331,24 @@ def plotImage(G_losses, D_losses):
 
 - **batch_size=64, lr=0.0001, epoch=800**
 
-![fig](fig/Loss_lr=0.0001_bs=64_ep=800.png "fig")
-![fig](fig/Out2_lr=0.0001_bs=64_ep=800_resize.png "fig")
+![fig](fig/Loss_lr=0.0001_bs=64_ep=800_resize.png "fig") ![fig](fig/Out2_lr=0.0001_bs=64_ep=800_resize.png "fig")
 
 ---
 
 - **batch_size=64, lr=0.0001, epoch=1200**
 
-![fig](fig/Loss_lr=0.0001_bs=64_ep=1200.png "fig")
+![fig](fig/Loss_lr=0.0001_bs=64_ep=1200_resize.png "fig") ![fig](fig/Out2_lr=0.0001_bs=64_ep=1200_resize.png "fig")
 
 >[!NOTE] 
 > 跑1200次最後幾回的損失值完全沒有震盪，後面跑的那幾次等於完全沒有意義，參數需要再修正。
 
-
-![fig](fig/Out2_lr=0.0001_bs=64_ep=1200_resize.png "fig")
 
 ---
 
 - **batch_size=100, lr=0.0001, epoch=1500**
 
 
-![fig](fig/Loss_lr=0.0001_bs=100_ep=1500.png "fig")
-![fig](fig/Out2_lr=0.0001_bs=100_ep=1500_resize.png "fig")
+![fig](fig/Loss_lr=0.0001_bs=100_ep=1500_resize.png "fig")![fig](fig/Out2_lr=0.0001_bs=100_ep=1500_resize.png "fig")
 
 
 ## 優化改進
