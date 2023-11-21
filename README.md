@@ -348,7 +348,3 @@ def plotImage(G_losses, D_losses):
 
 ![fig](fig/Loss_lr=0.0001_bs=100_ep=1500.png "fig")
 ![fig](fig/Out2_lr=0.0001_bs=100_ep=1500_resize.png "fig")
-
-
-
-
