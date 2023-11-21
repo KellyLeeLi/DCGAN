@@ -326,6 +326,20 @@ def plotImage(G_losses, D_losses):
 **故batch size隨著epoch增加訓練效果更好。**
 
 
+## 結果呈現
+
+- batch_size=64, lr=0.0001, epoch=800
+
+![fig](fig/Loss_lr=0.0001_bs=64_ep=800.png "fig") ![fig](fig/Out2_lr=0.0001_bs=64_ep=800_resize.png "fig")
+
+- batch_size=64, lr=0.0001, epoch=1200
+
+![fig](fig/Loss_lr=0.0001_bs=64_ep=1200.png "fig") ![fig](fig/Out2_lr=0.0001_bs=64_ep=1200_resize.png "fig")
+
+- batch_size=100, lr=0.0001, epoch=1500
+
+
+![fig](fig/Loss_lr=0.0001_bs=100_ep=1500.png "fig") ![fig](fig/Out2_lr=0.0001_bs=100_ep=1500_resize.png "fig")
 
 ![fig](fig/ "fig") ![fig](fig/ "fig")
 
