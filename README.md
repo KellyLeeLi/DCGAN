@@ -348,3 +348,8 @@ def plotImage(G_losses, D_losses):
 
 ![fig](fig/Loss_lr=0.0001_bs=100_ep=1500.png "fig")
 ![fig](fig/Out2_lr=0.0001_bs=100_ep=1500_resize.png "fig")
+
+
+## 優化改進
+- 資料庫圖片僅一千多張，訓練效果不佳，考慮加入StyleGAN2 with ADA演算法提升模型品質。
+- 佈署。
