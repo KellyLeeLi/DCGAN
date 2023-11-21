@@ -323,7 +323,8 @@ def plotImage(G_losses, D_losses):
 
 ![fig](fig/bs16_lr0.0001_ep500.png "fig4") ![fig](fig/out_bs16_lr0.0001_500ep_resize_.png "fig5")
 
-**故batch size隨著epoch增加訓練效果更好。**
+>[!NOTE] 
+>故batch size隨著epoch增加訓練效果更好。
 
 
 ## 結果呈現
@@ -339,7 +340,7 @@ def plotImage(G_losses, D_losses):
 
 ![fig](fig/Loss_lr=0.0001_bs=64_ep=1200.png "fig")
 
-
+>[!NOTE] 
 > 跑1200次最後幾回的損失值完全沒有震盪，後面跑的那幾次等於完全沒有意義，參數需要再修正。
 
 
