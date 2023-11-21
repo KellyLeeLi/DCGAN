@@ -333,6 +333,7 @@ def plotImage(G_losses, D_losses):
 
 ![fig](fig/Loss_lr=0.0001_bs=64_ep=800_resize.png "fig") ![fig](fig/Out2_lr=0.0001_bs=64_ep=800_resize.png "fig")
 
+
 ---
 
 - **batch_size=64, lr=0.0001, epoch=1200**
@@ -350,6 +351,9 @@ def plotImage(G_losses, D_losses):
 
 ![fig](fig/Loss_lr=0.0001_bs=100_ep=1500_resize.png "fig")![fig](fig/Out2_lr=0.0001_bs=100_ep=1500_resize.png "fig")
 
+```
+----- Execution time: 3127.064160 s -----
+```
 
 ## 優化改進
 - 資料庫圖片僅一千多張，訓練效果不佳，考慮加入StyleGAN2 with ADA演算法提升模型品質。
